@@ -1,9 +1,15 @@
+<?php
+// src/Controller/LuckyController.php
+namespace App\Controller;
+
+use Symfony\Component\HttpFoundation\Response;
+
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+
 class UserController extends AbstractController
 {
-    /**
-     * @Route("/lucky/number")
-     */
-    public function number()
+
+    public function index()
     {
         $name = "Edouard";
 
